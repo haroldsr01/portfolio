@@ -7,11 +7,11 @@
 
     connectedCallback() {
       this.innerHTML = `
-            <nav>
-                <ul>                    
-                    <li><a class="nav-link" href="/">HOME</a></li>
-                    <li><a class="nav-link" href="/page1">PAGE1</a></li>
-                    <li><a class="nav-link" href="/page2">PAGE2</a></li>
+            <nav class="nav-container">
+                <ul class="nav-treeview">                    
+                    <li><a class="nav-link" href="/">Intro</a></li>
+                    <li><a class="nav-link" href="/page1">Projects</a></li>
+                    <li><a class="nav-link" href="/page2">Contact</a></li>
                 </ul>
             </nav>            
       `;       

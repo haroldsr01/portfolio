@@ -21,17 +21,21 @@
     </main>
     <footer>
         <div class="container">
-
+            <footer-component></footer-component>
         </div>        
     </footer>
-<!-- Web Components -->
-    <script src="/view/components/navbar.js"></script>
-
-<!-- Client Side Router -->
+    <!-- Web Components -->
+    <script src="./view/components/navbar.js"></script>
+    <script src="./view/components/footer.js"></script>
+    
+    <!-- Client Side Router -->
     <script src="/js/router.js"></script>
     
-<!-- Service Worker to Cache Resources and to Persist Client Side Routes upon Reload/Refresh -->
-<!-- Fresh Cache is Updated in the Background by Service Worker-->
+    <!-- Main Javascript File -->
+    <script src="/js/index.js"></script>
+    
+    <!-- Service Worker to Cache Resources and to Persist Client Side Routes upon Reload/Refresh.
+    Fresh Cache is Updated in the Background by Service Worker -->
     <script src="/service-worker.js"></script>
 </body>
 </html>

@@ -10,13 +10,13 @@ if ('serviceWorker' in navigator) {
 
   const CACHE_NAME = 'my-cache-v1'; // Name your cache
   const urlsToCache = [
-    '/', // Root HTML file
+    // Root HTML file
+    '/', 
     '/index.html',
-// if non-existent file is tried to fetch by service worker it will cause an error so remove those files
-    // '/css/main.css', 
+    
+// if non-existent file is tried to fetch by service worker it will cause an error so remove those files    
     '/css/index.css',
-    '/js/main.js',
-    // '/service-worker.js',
+    '/js/index.js',    
     '/js/router.js',
   ];
   

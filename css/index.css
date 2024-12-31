@@ -1,14 +1,14 @@
+/* CSS Reset */
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;    
-    /* border: 1px solid black; */
+    padding: 0;        
 }
 
-body {
-  /* padding: 100px; */
+body {  
   border: 1px solid black;
   position: fixed;
   overflow: auto;
@@ -20,11 +20,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-/*
- * Just a quick hamburger
- */
-nav {
-}
+
 .container {
   display: flex;
   gap: 100px
@@ -34,22 +30,9 @@ nav {
   display: block;
 }
 
-span {
-   display: block;
-   width: 30px;
-   height: 5px;
-   margin-bottom: 3px;
-   background: #161515;
-   border-radius: 3px;
-   z-index: 1;
-}
 
 ul {
   list-style: none;
   gap: 100px;
 }
 
-.footer {
-
-}
- 
